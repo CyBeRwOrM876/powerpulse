@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PowerPulse | ZedWatts</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>PowerPulse</h1><span class="team">Team ZedWatts</span><nav id="nav" hidden>
+  <button data-tab="setup">Business</button><button data-tab="analysis">Analysis</button>
+  <button data-tab="live">Live</button><button data-tab="reports">Reports</button><button id="logout">Log out</button></nav></header>
+<main>
+<section id="auth">
+  <h2>Sign in</h2>
+  <label>Email <input id="email" type="email" autocomplete="username"></label>
+  <label>Password <input id="password" type="password" autocomplete="current-password"></label>
+  <div class="row"><button id="login">Log in</button><button id="register" class="secondary">Create account</button></div>
+  <p id="auth-msg" class="msg"></p>
+</section>
+
+<section id="tab-setup" hidden>
+  <h2>Your business</h2>
+  <div class="grid">
+    <label>Business name <input id="b-name"></label>
+    <label>Sector template <select id="b-template"></select></label>
+    <label>Schedule <select id="b-schedule"></select></label>
+    <label>Region <select id="b-region"></select></label>
+    <label>ZESCO group <select id="b-group"></select></label>
+    <label>Working days per week <input id="b-days" type="number" min="1" max="7" value="6"></label>
+    <label>Grid tariff (ZMW/kWh) <input id="b-tariff" type="number" step="0.01" value="1.8"></label>
+    <label>Diesel (ZMW/litre) <input id="b-diesel" type="number" step="0.1" value="30"></label>
+    <label>Existing generator (kW) <input id="b-gen" type="number" step="0.5" value="0"></label>
+  </div>
+  <p id="sched-warn" class="warn"></p>
+  <div id="mask" class="mask" aria-label="Hours with grid power"></div>
+  <h3>Equipment</h3>
+  <p class="hint">Values from templates are starting points. Replace them with your own figures. Prices and losses are in ZMW.</p>
+  <div class="tablewrap"><table id="eq-table"><thead><tr><th>Name</th><th>kW</th><th>Hours/day</th><th>Start hour</th><th>Critical</th><th>Can move</th><th>Revenue lost per hour</th><th>Spoilage per hour</th><th>CT channel</th><th></th></tr></thead><tbody></tbody></table></div>
+  <div class="row"><button id="add-eq" class="secondary">Add equipment</button><button id="save-business">Save business</button></div>
+  <p id="setup-msg" class="msg"></p>
+  <h3>Saved businesses</h3><ul id="biz-list"></ul>
+</section>
+
+<section id="tab-analysis" hidden>
+  <h2>Analysis</h2>
+  <div class="row"><label class="inline"><input type="checkbox" id="use-measured"> Use measured data when available</label><button id="run">Run analysis</button></div>
+  <details><summary>Assumptions (placeholders, replace with supplier quotes)</summary><div id="assump" class="grid"></div></details>
+  <p id="an-msg" class="msg"></p>
+  <div id="an-out" hidden>
+    <div class="callout" id="an-summary"></div>
+    <h3>Strategies ranked by annual cost</h3>
+    <div class="tablewrap"><table id="an-table"><thead><tr><th>Strategy</th><th>Capital (ZMW)</th><th>Annual cost (ZMW)</th><th>Unserved loss (ZMW/yr)</th><th>Payback (years)</th><th>Diesel (L/yr)</th><th>CO2 (t/yr)</th><th>Protects critical load</th></tr></thead><tbody></tbody></table></div>
+    <h3>Priority for backup power</h3><ol id="prio"></ol>
+    <h3>Suggested timetable for movable equipment</h3><ul id="shift"></ul>
+    <h3>Does the answer change?</h3><div class="tablewrap"><table id="sens"><thead><tr><th>Scenario</th><th>Recommended</th><th>Changes answer</th></tr></thead><tbody></tbody></table></div>
+    <h3>Check a supplier quotation</h3>
+    <div class="grid"><label>Battery kWh <input id="q-batt" type="number" value="0"></label><label>Solar kWp <input id="q-pv" type="number" value="0"></label>
+    <label>Inverter kW <input id="q-inv" type="number" value="0"></label><label>Generator kW <input id="q-gen" type="number" value="0"></label>
+    <label>Quoted price (ZMW) <input id="q-price" type="number" value="0"></label></div>
+    <div class="row"><button id="quote" class="secondary">Check quotation</button></div><ul id="q-out"></ul>
+    <div class="row"><button id="make-report">Generate signed report</button></div><p id="rep-msg" class="msg"></p>
+  </div>
+</section>
+
+<section id="tab-live" hidden>
+  <h2>Live readings</h2>
+  <div class="row"><button id="new-device" class="secondary">Register a node</button><button id="refresh">Refresh</button></div>
+  <pre id="device-secret" class="secret" hidden></pre>
+  <div id="live-cards" class="cards"></div>
+  <h3>Last 24 hours, total watts</h3><div id="chart" class="chart"></div>
+  <h3>Scheduled versus measured supply</h3><div id="reli"></div>
+  <h3>Outages</h3><div class="tablewrap"><table id="outages"><thead><tr><th>Start</th><th>End</th><th>Minutes</th><th>Source</th></tr></thead><tbody></tbody></table></div>
+</section>
+
+<section id="tab-reports" hidden>
+  <h2>Signed reports</h2><ul id="report-list"></ul>
+</section>
+</main>
+<footer>Results are projections from stated assumptions. Prices are placeholders until replaced with quotations.</footer>
+<script src="app.js"></script>
+</body>
+</html>

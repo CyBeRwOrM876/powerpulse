@@ -1,0 +1,181 @@
+schedule_id,schedule_date,date_status,region,group_id,category,period_label,on_start,on_end,hours_on,wraps_midnight,flags
+ZESCO_14Oct2024,2024-10-14,stated,Muchinga,A,Residential/Industries/Commercials,,21:00,01:00,4.0,yes,
+ZESCO_14Oct2024,2024-10-14,stated,Muchinga,B,Residential/Industries/Commercials,,22:00,04:00,6.0,yes,
+ZESCO_14Oct2024,2024-10-14,stated,Muchinga,C,Residential/Industries/Commercials,,17:00,21:00,4.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Muchinga,E,Residential/Industries/Commercials,,03:00,15:00,12.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Muchinga,F,Residential/Industries/Commercials,,10:00,22:00,12.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Luapula,A,Residential/Commercials,,22:00,01:00,3.0,yes,
+ZESCO_14Oct2024,2024-10-14,stated,Luapula,B,Residential/Commercials,,01:00,04:00,3.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Luapula,C,Residential/Commercials,,17:00,20:00,3.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Luapula,E,Industries,,10:00,17:00,7.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Luapula,D,Commercials,,08:00,22:00,14.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Kitwe & Kalulushi,A,,,01:00,05:00,4.0,no,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Kitwe & Kalulushi,B,,,03:00,07:00,4.0,no,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Kitwe & Kalulushi,C1,,,05:00,14:00,9.0,no,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Kitwe & Kalulushi,C2,,,10:00,17:00,7.0,no,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Kitwe & Kalulushi,D,,,13:00,17:00,4.0,no,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Kitwe & Kalulushi,E,,,15:00,19:00,4.0,no,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Kitwe & Kalulushi,G2,,,14:00,22:00,8.0,no,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Kitwe & Kalulushi,F&G,,,17:00,22:00,5.0,no,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Kitwe & Kalulushi,H,,,21:00,01:00,4.0,yes,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Kitwe & Kalulushi,G3,,,23:00,05:00,6.0,yes,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Mufulira,A,,,12:00,16:00,4.0,no,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Mufulira,B,,,22:00,02:00,4.0,yes,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Mufulira,C,,,07:00,11:00,4.0,no,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Mufulira,D,,,07:00,16:00,9.0,no,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Northwestern,A,,,04:00,10:00,6.0,no,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Northwestern,B,,,10:00,16:00,6.0,no,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Northwestern,C,,,16:00,22:00,6.0,no,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Northwestern,D,,,22:00,04:00,6.0,yes,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Central & Eastern,A,,,23:00,05:00,6.0,yes,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Central & Eastern,B,,,05:00,11:00,6.0,no,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Central & Eastern,C,,,11:00,17:00,6.0,no,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Central & Eastern,D,,,17:00,23:00,6.0,no,no category given in source
+ZESCO_14Oct2024,2024-10-14,stated,Central & Eastern,E,,,17:00,10:00,17.0,yes,no category given; 17h window looks unusual - verify
+ZESCO_14Oct2024,2024-10-14,stated,Ndola & Luanshya,A,Residential,,01:00,04:00,3.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Ndola & Luanshya,B,Residential,,06:00,09:00,3.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Ndola & Luanshya,C,Luanshya,,06:00,09:00,3.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Ndola & Luanshya,D,Residential,,04:00,07:00,3.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Ndola & Luanshya,E,Industrial,,09:00,17:00,8.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Lusaka,E,Residential,,00:00,03:00,3.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Lusaka,A,Industries,,10:00,16:00,6.0,no,group letter A used twice
+ZESCO_14Oct2024,2024-10-14,stated,Lusaka,N,Residential,,10:00,13:00,3.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Lusaka,M,Commercials,,10:00,15:00,5.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Lusaka,H,Residential,,10:00,13:00,3.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Lusaka,D,Residential,,13:00,16:00,3.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Lusaka,C,Residential,,22:00,01:00,3.0,yes,
+ZESCO_14Oct2024,2024-10-14,stated,Lusaka,F,Farmers,,22:00,05:00,7.0,yes,
+ZESCO_14Oct2024,2024-10-14,stated,Lusaka,A,Industries,,22:00,04:00,6.0,yes,group letter A used twice
+ZESCO_14Oct2024,2024-10-14,stated,Northern,E,Water Utility,,21:00,10:00,13.0,yes,
+ZESCO_14Oct2024,2024-10-14,stated,Northern,D,Residential/Commercial,,20:00,23:00,3.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Northern,A,Residential,,22:00,01:00,3.0,yes,
+ZESCO_14Oct2024,2024-10-14,stated,Northern,C,Residential,,01:00,05:00,4.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Northern,F,Commercials,,10:00,17:00,7.0,no,
+ZESCO_14Oct2024,2024-10-14,stated,Northern,B,Residential/Commercial,,17:00,20:00,3.0,no,
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Chilabombwe,C,Residential/Industrial,,05:00,12:00,7.0,no,source heading reads Chililabombwe
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Chilabombwe,D,Residential,,10:00,17:00,7.0,no,source heading reads Chililabombwe
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Chilabombwe,A,Residential,,15:00,22:00,7.0,no,source heading reads Chililabombwe
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Chilabombwe,B,Residential,,22:00,05:00,7.0,yes,source heading reads Chililabombwe
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Ndola & Luanshya,A,Residential,,23:00,06:00,7.0,yes,
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Ndola & Luanshya,B,Residential,,16:00,23:00,7.0,no,
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Ndola & Luanshya,C,Markets,,14:00,21:00,7.0,no,
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Ndola & Luanshya,D,Industries,,09:00,16:00,7.0,no,
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Ndola & Luanshya,E,Residential/Farmers,,20:00,03:00,7.0,yes,
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Southern,A,Residential/Farmers/Millers/Commercial,,05:00,12:00,7.0,no,
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Southern,B,Residential/Farmers/Millers/Commercial,,12:00,19:00,7.0,no,
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Southern,C,Residential/Farmers/Millers/Commercial,,20:00,05:00,9.0,yes,
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Chingola,A,Residential,,07:00,14:00,7.0,no,
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Chingola,B,Residential,,14:00,21:00,7.0,no,
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Chingola,C,Residential,,21:00,07:00,10.0,yes,
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Chingola,D,Industries,,10:00,17:00,7.0,no,
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Central Zone,A,Residential,16th-18th,22:00,05:00,7.0,yes,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Central Zone,B,Residential,16th-18th,05:00,12:00,7.0,no,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Central Zone,C,Residential,16th-18th,15:00,22:00,7.0,no,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Central Zone,D,Farmers,16th-18th,22:00,08:00,10.0,yes,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Central Zone,E,Farmers,16th-18th,12:00,22:00,10.0,no,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Central Zone,F,Farmers,16th-18th,19:00,05:00,10.0,yes,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Central Zone,G,Industries,16th-18th,08:00,15:00,7.0,no,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Central Zone,A,Residential,19th-22nd,05:00,12:00,7.0,no,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Central Zone,B,Residential,19th-22nd,15:00,22:00,7.0,no,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Central Zone,C,Residential,19th-22nd,22:00,05:00,7.0,yes,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Central Zone,D,Farmers,19th-22nd,22:00,08:00,10.0,yes,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Central Zone,E,Farmers,19th-22nd,12:00,22:00,10.0,no,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Central Zone,F,Farmers,19th-22nd,19:00,05:00,10.0,yes,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Central Zone,G,Industries,19th-22nd,08:00,15:00,7.0,no,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Eastern Zone,A,Residential,16th-18th,19:00,01:00,6.0,yes,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Eastern Zone,B,Residential,16th-18th,05:00,12:00,7.0,no,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Eastern Zone,C,Residential,16th-18th,12:00,19:00,7.0,no,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Eastern Zone,D,Farmers,16th-18th,22:00,08:00,10.0,yes,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Eastern Zone,A,Residential,19th-21st,05:00,12:00,7.0,no,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Eastern Zone,B,Residential,19th-21st,12:00,19:00,7.0,no,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Eastern Zone,C,Residential,19th-21st,19:00,01:00,6.0,yes,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Eastern Zone,D,Farmers,19th-21st,22:00,08:00,10.0,yes,period dates have no month
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Kitwe,A,Residential,,00:00,09:00,9.0,no,table titled 7 hours but windows are 7-12h; use actual times
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Kitwe,C,Commercial,,05:00,14:00,9.0,no,table titled 7 hours but windows are 7-12h; use actual times
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Kitwe,D,Commercial,,08:00,15:00,7.0,no,table titled 7 hours but windows are 7-12h; use actual times
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Kitwe,E,Industries,,08:00,16:00,8.0,no,table titled 7 hours but windows are 7-12h; use actual times
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Kitwe,F,Residential,,14:00,21:00,7.0,no,table titled 7 hours but windows are 7-12h; use actual times
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Kitwe,G,Residential,,22:00,06:00,8.0,yes,table titled 7 hours but windows are 7-12h; use actual times
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Kitwe,H,Residential,,17:00,00:00,7.0,yes,table titled 7 hours but windows are 7-12h; use actual times
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Kitwe,K,Residential,,22:00,06:00,8.0,yes,table titled 7 hours but windows are 7-12h; use actual times
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Kitwe,X1,Hospitals,,08:00,20:00,12.0,no,table titled 7 hours but windows are 7-12h; use actual times
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Kitwe,X2,Residential,,00:00,09:00,9.0,no,table titled 7 hours but windows are 7-12h; use actual times
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Kitwe,GROUP1,Smelters,,22:00,10:00,12.0,yes,table titled 7 hours but windows are 7-12h; use actual times
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Kitwe,GROUP3,Smelters,,18:00,06:00,12.0,yes,table titled 7 hours but windows are 7-12h; use actual times
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Mufulira,A,Residential,,22:00,06:00,8.0,yes,table titled 7 hours but windows are 7-10h; use actual times
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Mufulira,B,Residential,,22:00,06:00,8.0,yes,table titled 7 hours but windows are 7-10h; use actual times
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Mufulira,C,Mixed,,14:00,21:00,7.0,no,table titled 7 hours but windows are 7-10h; use actual times
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Mufulira,D,Residential,,00:00,09:00,9.0,no,table titled 7 hours but windows are 7-10h; use actual times
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Mufulira,E,Industrial,,08:00,15:00,7.0,no,table titled 7 hours but windows are 7-10h; use actual times
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Mufulira,F,Commercial,,06:00,16:00,10.0,no,table titled 7 hours but windows are 7-10h; use actual times
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Northwestern,"A,H",Residential,,05:00,12:00,7.0,no,
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Northwestern,"B,I",Residential,,10:00,17:00,7.0,no,
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Northwestern,"C,G",Residential,,13:30,20:30,7.0,no,
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Northwestern,D,Industries/Residential,,21:30,04:30,7.0,yes,
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Northwestern,E,Residential,,22:00,05:00,7.0,yes,
+ZESCO_7h_undated,,"undated (probably the 16-22 Jun 2025 7-hour set, unconfirmed)",Northwestern,F,Farmers,,20:00,06:00,10.0,yes,
+ZESCO_16-22Jun2025,2025-06-16,stated,Lusaka,N,Residential,,08:00,15:00,7.0,no,
+ZESCO_16-22Jun2025,2025-06-16,stated,Lusaka,D,Residential,,08:00,15:00,7.0,no,
+ZESCO_16-22Jun2025,2025-06-16,stated,Lusaka,A,Industries,,10:00,17:00,7.0,no,
+ZESCO_16-22Jun2025,2025-06-16,stated,Lusaka,M,Commercials,,10:00,17:00,7.0,no,
+ZESCO_16-22Jun2025,2025-06-16,stated,Lusaka,B,Industries,,10:00,17:00,7.0,no,
+ZESCO_16-22Jun2025,2025-06-16,stated,Lusaka,E1,Residential,,15:00,22:00,7.0,no,
+ZESCO_16-22Jun2025,2025-06-16,stated,Lusaka,H,Residential,,17:00,00:00,7.0,yes,
+ZESCO_16-22Jun2025,2025-06-16,stated,Lusaka,E2,Residential,,17:00,00:00,7.0,yes,
+ZESCO_16-22Jun2025,2025-06-16,stated,Lusaka,C,Residential,,22:00,06:00,8.0,yes,
+ZESCO_16-22Jun2025,2025-06-16,stated,Lusaka,F,Farmers,,22:00,06:00,8.0,yes,
+ZESCO_16-22Jun2025,2025-06-16,stated,"Northern, Muchinga & Luapula",C,Residential,,22:00,05:00,7.0,yes,
+ZESCO_16-22Jun2025,2025-06-16,stated,"Northern, Muchinga & Luapula",D,Residential,,05:00,12:00,7.0,no,
+ZESCO_16-22Jun2025,2025-06-16,stated,"Northern, Muchinga & Luapula",A,Residential,,10:00,17:00,7.0,no,
+ZESCO_16-22Jun2025,2025-06-16,stated,"Northern, Muchinga & Luapula",B,Residential,,15:00,22:00,7.0,no,
+ZESCO_16-22Jun2025,2025-06-16,stated,"Northern, Muchinga & Luapula",E,Industries,,11:00,18:00,7.0,no,
+ZESCO_16-22Jun2025,2025-06-16,stated,"Northern, Muchinga & Luapula",F,Hospitals,,18:00,11:00,17.0,yes,17h window; verify
+ZESCO_16-22Jun2025,2025-06-16,stated,"Northern, Muchinga & Luapula",G,Commercial,,10:00,17:00,7.0,no,only Mansa Central on 22-05
+ZESCO_16-22Jun2025,2025-06-16,stated,"Northern, Muchinga & Luapula",H,Utility,,22:00,07:00,9.0,yes,
+ZESCO_19Aug2024,2024-08-19,stated,Lusaka,D&H,Residential,,00:00,12:00,12.0,yes,column header is 'Timing' - on/off not labelled
+ZESCO_19Aug2024,2024-08-19,stated,Lusaka,B,Industrial,,01:00,13:00,12.0,no,column header is 'Timing' - on/off not labelled
+ZESCO_19Aug2024,2024-08-19,stated,Lusaka,M,Residential,,04:00,10:00,6.0,no,column header is 'Timing' - on/off not labelled
+ZESCO_19Aug2024,2024-08-19,stated,Lusaka,M,Residential,,17:00,23:00,6.0,no,column header is 'Timing' - on/off not labelled
+ZESCO_19Aug2024,2024-08-19,stated,Lusaka,F,Farmers,,09:00,21:00,12.0,no,column header is 'Timing' - on/off not labelled
+ZESCO_19Aug2024,2024-08-19,stated,Lusaka,G,Residential,,09:00,21:00,12.0,no,column header is 'Timing' - on/off not labelled
+ZESCO_19Aug2024,2024-08-19,stated,Lusaka,C&E,Residential,,12:00,00:00,12.0,yes,column header is 'Timing' - on/off not labelled
+ZESCO_19Aug2024,2024-08-19,stated,Lusaka,A,Industrial,,16:00,04:00,12.0,yes,column header is 'Timing' - on/off not labelled
+ZESCO_19Aug2024,2024-08-19,stated,Kitwe & Kalulushi,A,,,06:00,18:00,12.0,no,column header is 'Timing' - on/off not labelled; no category
+ZESCO_19Aug2024,2024-08-19,stated,Kitwe & Kalulushi,B,,,10:00,22:00,12.0,no,column header is 'Timing' - on/off not labelled; no category
+ZESCO_19Aug2024,2024-08-19,stated,Kitwe & Kalulushi,C,,,18:00,06:00,12.0,yes,column header is 'Timing' - on/off not labelled; no category
+ZESCO_19Aug2024,2024-08-19,stated,Kitwe & Kalulushi,D,,,00:00,12:00,12.0,no,column header is 'Timing' - on/off not labelled; no category
+ZESCO_19Aug2024,2024-08-19,stated,Kitwe & Kalulushi,E,,,12:00,00:00,12.0,yes,column header is 'Timing' - on/off not labelled; no category
+ZESCO_19Aug2024,2024-08-19,stated,Mufulira,B,,,06:00,18:00,12.0,no,column header is 'Timing' - on/off not labelled; no category
+ZESCO_19Aug2024,2024-08-19,stated,Mufulira,A,,,10:00,22:00,12.0,no,column header is 'Timing' - on/off not labelled; no category
+ZESCO_19Aug2024,2024-08-19,stated,Mufulira,C,,,18:00,06:00,12.0,yes,column header is 'Timing' - on/off not labelled; no category
+ZESCO_19Aug2024,2024-08-19,stated,Mufulira,D,,,20:00,08:00,12.0,yes,column header is 'Timing' - on/off not labelled; no category
+ZESCO_19Aug2024,2024-08-19,stated,Mufulira,E,,,12:00,00:00,12.0,yes,column header is 'Timing' - on/off not labelled; no category
+ZESCO_19Aug2024,2024-08-19,stated,Chingola,B,,,00:00,06:00,6.0,no,letters rotate daily and reset every 3rd day; on/off not labelled
+ZESCO_19Aug2024,2024-08-19,stated,Chingola,B,,,12:00,18:00,6.0,no,letters rotate daily and reset every 3rd day; on/off not labelled
+ZESCO_19Aug2024,2024-08-19,stated,Chingola,A,,,06:00,12:00,6.0,no,letters rotate daily and reset every 3rd day; on/off not labelled
+ZESCO_19Aug2024,2024-08-19,stated,Chingola,A,,,18:00,00:00,6.0,yes,letters rotate daily and reset every 3rd day; on/off not labelled
+ZESCO_19Aug2024,2024-08-19,stated,Chingola,C,,,18:00,06:00,12.0,yes,letters rotate daily and reset every 3rd day; on/off not labelled
+ZESCO_26Aug2024,2024-08-26,stated,Lusaka,C&E,Residential,,00:00,12:00,12.0,yes,column header is 'Timing' - on/off not labelled
+ZESCO_26Aug2024,2024-08-26,stated,Lusaka,A,Industrial,,01:00,13:00,12.0,no,column header is 'Timing' - on/off not labelled
+ZESCO_26Aug2024,2024-08-26,stated,Lusaka,M,Residential,,04:00,10:00,6.0,no,column header is 'Timing' - on/off not labelled
+ZESCO_26Aug2024,2024-08-26,stated,Lusaka,M,Residential,,17:00,23:00,6.0,no,column header is 'Timing' - on/off not labelled
+ZESCO_26Aug2024,2024-08-26,stated,Lusaka,F,Farmers,,09:00,21:00,12.0,no,column header is 'Timing' - on/off not labelled
+ZESCO_26Aug2024,2024-08-26,stated,Lusaka,G,Residential,,09:00,21:00,12.0,no,column header is 'Timing' - on/off not labelled
+ZESCO_26Aug2024,2024-08-26,stated,Lusaka,D&H,Residential,,12:00,00:00,12.0,yes,column header is 'Timing' - on/off not labelled
+ZESCO_26Aug2024,2024-08-26,stated,Lusaka,B,Industrial,,16:00,04:00,12.0,yes,column header is 'Timing' - on/off not labelled
+ZESCO_26Aug2024,2024-08-26,stated,Lusaka,N,Residential/Commercial,,18:00,06:00,12.0,yes,column header is 'Timing' - on/off not labelled
+ZESCO_26Aug2024,2024-08-26,stated,Kitwe & Kalulushi,A,,,06:00,18:00,12.0,no,column header is 'Timing' - on/off not labelled; no category
+ZESCO_26Aug2024,2024-08-26,stated,Kitwe & Kalulushi,B,,,10:00,22:00,12.0,no,column header is 'Timing' - on/off not labelled; no category
+ZESCO_26Aug2024,2024-08-26,stated,Kitwe & Kalulushi,C,,,18:00,06:00,12.0,yes,column header is 'Timing' - on/off not labelled; no category
+ZESCO_26Aug2024,2024-08-26,stated,Kitwe & Kalulushi,D,,,00:00,12:00,12.0,no,column header is 'Timing' - on/off not labelled; no category
+ZESCO_26Aug2024,2024-08-26,stated,Kitwe & Kalulushi,E,,,12:00,00:00,12.0,yes,column header is 'Timing' - on/off not labelled; no category
+ZESCO_26Aug2024,2024-08-26,stated,Mufulira,A,,,06:00,18:00,12.0,no,column header is 'Timing' - on/off not labelled; no category
+ZESCO_26Aug2024,2024-08-26,stated,Mufulira,B,,,10:00,22:00,12.0,no,column header is 'Timing' - on/off not labelled; no category
+ZESCO_26Aug2024,2024-08-26,stated,Mufulira,C,,,18:00,06:00,12.0,yes,column header is 'Timing' - on/off not labelled; no category
+ZESCO_26Aug2024,2024-08-26,stated,Mufulira,D,,,20:00,08:00,12.0,yes,column header is 'Timing' - on/off not labelled; no category
+ZESCO_26Aug2024,2024-08-26,stated,Mufulira,E,,,12:00,00:00,12.0,yes,column header is 'Timing' - on/off not labelled; no category
+ZESCO_26Aug2024,2024-08-26,stated,Chingola,A,,,00:00,06:00,6.0,no,letters rotate daily and reset every 3rd day; on/off not labelled
+ZESCO_26Aug2024,2024-08-26,stated,Chingola,A,,,12:00,18:00,6.0,no,letters rotate daily and reset every 3rd day; on/off not labelled
+ZESCO_26Aug2024,2024-08-26,stated,Chingola,B,,,06:00,12:00,6.0,no,letters rotate daily and reset every 3rd day; on/off not labelled
+ZESCO_26Aug2024,2024-08-26,stated,Chingola,B,,,18:00,00:00,6.0,yes,letters rotate daily and reset every 3rd day; on/off not labelled
+ZESCO_26Aug2024,2024-08-26,stated,Chingola,C,,,18:00,06:00,12.0,yes,letters rotate daily and reset every 3rd day; on/off not labelled

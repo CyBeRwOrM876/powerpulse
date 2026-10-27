@@ -1,0 +1,25 @@
+// Copy to config.h (which is git-ignored) and fill in. NEVER commit real secrets.
+#pragma once
+#define WIFI_SSID        "your-wifi"
+#define WIFI_PASS        "your-wifi-password"
+#define MQTT_HOST        "mqtt.example.com"   // broker with TLS on 8883
+#define MQTT_PORT        8883
+#define MQTT_USER        "node"
+#define MQTT_PASS        "change-me"
+#define DEVICE_ID        "node-xxxxxxxx"      // from the dashboard: Live > Register a node
+#define DEVICE_SECRET_HEX "0000000000000000000000000000000000000000000000000000000000000000"
+// CA certificate that signed the broker certificate (for Let's Encrypt use the ISRG Root X1 PEM).
+static const char CA_PEM[] = R"EOF(
+-----BEGIN CERTIFICATE-----
+PASTE THE CA CERTIFICATE HERE
+-----END CERTIFICATE-----
+)EOF";
+// Hardware constants
+#define CT_RATIO         2000.0   // SCT-013-000: 100 A primary to 50 mA secondary
+#define BURDEN_OHMS      18.0     // 1% metal film
+#define ADS_LSB_VOLTS    0.000125 // GAIN_ONE (+/-4.096 V) on ADS1115
+#define NOISE_FLOOR_A    0.05     // currents below this are reported as zero
+#define PUBLISH_MS       2000
+#define OFFLINE_LOG_MS   30000    // while offline, store one record every 30 s
+#define WINDOW_MS        400      // 20 mains cycles per channel pair
+// #define USE_DS3231            // uncomment if a DS3231 RTC is fitted (recommended)

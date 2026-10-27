@@ -1,0 +1,8 @@
+# The backend may read every node's telemetry. A node may only publish to its own topics.
+user backend
+topic read powerpulse/+/telemetry
+topic read powerpulse/+/status
+
+user node
+pattern write powerpulse/%c/telemetry
+pattern write powerpulse/%c/status

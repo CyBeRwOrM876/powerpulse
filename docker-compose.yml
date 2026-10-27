@@ -1,0 +1,20 @@
+# Development stack: API + dashboard on :8000 and a Mosquitto broker on :1883 (authenticated, plain TCP for LAN testing).
+# For production put a TLS terminating proxy (Caddy) in front of the API and enable the TLS listener in mosquitto/mosquitto.conf.
+services:
+  api:
+    build: { context: ., dockerfile: backend/Dockerfile }
+    env_file: .env
+    ports: ["8000:8000"]
+    volumes: ["pp-data:/data"]
+    depends_on: [mosquitto]
+    restart: unless-stopped
+  mosquitto:
+    image: eclipse-mosquitto:2
+    ports: ["1883:1883"]
+    volumes:
+      - ./mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - ./mosquitto/passwd:/mosquitto/config/passwd:ro
+      - ./mosquitto/acl:/mosquitto/config/acl:ro
+    restart: unless-stopped
+volumes:
+  pp-data:
